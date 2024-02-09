@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide Stories</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="//vjs.zencdn.net/8.3.0/video-js.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div data-slide="slide" class="slide">
+        <div class="slide-items">
+            <div class="container">
+                <h1 class="titulo-principal"> Olá, André! Nós, do CRM, fizemos uma pequena homenagem! 😃</h1>
+            </div>
+            <div class="container">
+                <h1 class="titulo-principal">Afinal, foram mais de 9.000 horas trabalhadas. 🥵</h1>
+            </div>
+            <img src="./img/cat1.png">
+            <img src="./img/cat2.png">
+            <div class="container">
+                <h1 class="titulo-principal">Agradecemos imensamente por sua dedicação e trabalho.</h1>
+            </div>
+            <img src="./img/cat3.png">
+            <div class="container">
+                <h1 class="titulo-principal">Sua liderança e visão foram fundamentais para nossos sucessos.</h1>
+            </div>
+            <img src="./img/cat4.png">
+            <div class="container">
+                <h1 class="titulo-principal">Desejamos todo sucesso nessa nova jornada que se inicia! 🎉</h1>
+            </div>
+            <div class="container">
+                <div id="feedback-container">
+                <h1 class="titulo-principal">O quê você achou?</h1><br>
+                <img src="./img/comment-like-dislike-color-icon.webp" onclick="handleFeedback('like')" class="like-dislike">
+                </div>
+            </div>
+        </div>
+        <nav class="slide-nav">
+            <div class="slide-thumbs"></div>
+            <button class="slide-prev">Previous</button>
+            <button class="slide-next">Next</button>
+        </nav>
+        <img src="./img/bradesco-logo.png" class="logo-bradesco">
+    </div>
+
+    <script src="./slide-stories.js"></script>
+</body>
+
+</html>
